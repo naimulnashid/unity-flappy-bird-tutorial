@@ -1,12 +1,16 @@
 # Flappy Bird-Style Game in Unity
 
-A 2D side-scroller in Unity and C#: press Space to keep the bird in the air, fly through the gaps between pipes to score, and hit Play Again after a crash. Self-study project, July 2024, following Game Maker's Toolkit's [The Unity Tutorial For Complete Beginners](https://www.youtube.com/watch?v=XtQMytORBmM).
+A 2D side-scroller in Unity and C#: press Space to keep the bird in the air, fly through the gaps between pipes to score, and hit Play Again after a crash. Self-study project, April 2024, following Game Maker's Toolkit's [The Unity Tutorial For Complete Beginners](https://www.youtube.com/watch?v=XtQMytORBmM).
 
 This repository is a project showcase, not a maintained library.
 
+![Visual abstract: Space sets the bird's upward velocity; a frame of the scene rendered from its saved data shows the bird and pipe pairs on a pink background; cards describe the bird's physics, the pipe spawner (a pair every 2.5 s, height within 8 units, moving left at 5 units/s) and the logic manager (score and ding at the gap, Play Again reloads); the output is the score and the Game Over screen with Play Again and Quit buttons](docs/visual-abstract.png)
+
 ## Demo
 
-No recording yet. To try it, download the Windows build from [Releases](https://github.com/naimulnashid/unity-flappy-bird-tutorial/releases/latest).
+<a href="https://youtu.be/bE0FO5AsC5c"><img src="https://img.youtube.com/vi/bE0FO5AsC5c/maxresdefault.jpg" width="100%" alt="Thumbnail of the Flappy Bird-style Unity game demo video"></a>
+
+[Watch the demo on YouTube](https://youtu.be/bE0FO5AsC5c) (April 2024). To play it yourself, download the Windows build from [Releases](https://github.com/naimulnashid/unity-flappy-bird-tutorial/releases/latest).
 
 ## Features
 
